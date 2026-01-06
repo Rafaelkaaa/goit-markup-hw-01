@@ -1,0 +1,206 @@
+body {
+    width: full;
+    font-family: 'Roboto';
+    margin: auto;
+}
+
+section {
+    padding-top: 94px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    color: #212121;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+a .web {
+    color: #2196F3;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.item {
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.item:hover {
+    color: #2196F3;
+}
+
+.item:last-child {
+    margin-right: 0px;
+}
+
+.contacts {
+    display: flex;
+    list-style: none;
+    color: #757575;
+}
+
+.effective-decision {
+    height: 600px;
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+h1 {
+    width: 696px;
+    padding-inline: 46px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+
+    overflow-wrap: normal;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 44px;
+
+    font-weight: 900;
+}
+
+.effective-decision button {
+    margin: auto;
+    margin-top: 0px;
+    width: 216px;
+    height: 50px;
+
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+
+    background-color: #2196F3;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.our-metodologi h2 {
+    content-visibility: hidden;
+}
+
+.our-metodologi ul {
+    display: flex;
+    justify-content: center;
+}
+
+.our-metodologi li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 14px;
+    width: 270px;
+}
+
+.our-metodologi h3 {
+    color: #212121;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.our-metodologi p {
+    color: #757575;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.what-we-do h2 {
+    margin-bottom: 50px;
+}
+
+.what-we-do li {
+    margin-right: 30px;
+}
+
+.what-we-do ul {
+    display: flex;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F4FA;
+    padding-bottom: 94px;
+}
+
+.our-team ul {
+    display: flex;
+}
+
+.our-team li {
+    margin-right: 30px;
+    background-color: #FFF;
+}
+
+.our-team li {
+    margin-right: 30px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.our-team h3 {
+   font-weight: 500;
+   font-size: 16px;
+}
+.our-team p {
+   font-weight: 4500;
+   font-size: 16px;
+   color: #757575;
+   margin-bottom: 30px;
+}
+
+.footer {
+    padding: 60px 0;
+    padding-left: 215px;
+    background-color: #2F303A;
+}
+.footer  ul{
+    padding-left: 0px;
+}
+
+.footer li {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer li p {
+   color: rgba(255, 255, 255, 0.6);
+}
