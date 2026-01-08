@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: space-around;
     color: #212121;
+    border: 1px solid #ECECEC;
 }
 
 ul {
@@ -176,14 +177,78 @@ h1 {
 }
 
 .our-team h3 {
-   font-weight: 500;
-   font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
 }
+
 .our-team p {
-   font-weight: 4500;
-   font-size: 16px;
-   color: #757575;
-   margin-bottom: 30px;
+    font-weight: 4500;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.portfolio h1 {
+    content-visibility: hidden;
+}
+
+.portfolio {
+    margin-bottom: 94px;
+}
+
+.portfolio .filter {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.portfolio .filter li {
+    padding: 6px 22px;
+    margin-left: 8px;
+
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.portfolio .filter li:hover,
+li:focus {
+    background-color: #2196F3;
+    color: #FFF;
+}
+
+.portfolio .examples {
+    margin-top: 50px;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.portfolio .examples li {
+    width: 370px;
+    text-wrap: wrap;
+    margin: 15px;
+    border: 2px solid #EEEEEE;
+}
+
+.portfolio .examples h2 {
+    font-size: 18px;
+    font-weight: 700px;
+    color: #212121;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.portfolio .examples p {
+    margin: 0px;
+    font-size: 0px 0px 18px 0px;
+    font-weight: 700px;
+    color: #757575;
+}
+
+.portfolio .examples .deskription {
+    padding: 20px 24px;
 }
 
 .footer {
@@ -191,7 +256,8 @@ h1 {
     padding-left: 215px;
     background-color: #2F303A;
 }
-.footer  ul{
+
+.footer ul {
     padding-left: 0px;
 }
 
@@ -199,8 +265,9 @@ h1 {
     font-size: 14px;
     font-weight: 400;
     color: white;
+    border: 1px;
 }
 
 .footer li p {
-   color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
