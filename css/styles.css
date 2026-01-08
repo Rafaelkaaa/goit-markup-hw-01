@@ -43,6 +43,11 @@ a .web {
 .menu {
     list-style: none;
     display: flex;
+
+}
+.menu a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .item {
